@@ -7,7 +7,7 @@ from utils.dataset_loader import get_dataloaders
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 _, _, test_loader = get_dataloaders("dataset")
 
-weights_folder = "5katmanagırlık"
+weights_folder = "agırlıklar\\5katmanagırlık"
 best_f1 = 0.0
 best_model_name = ""
 
